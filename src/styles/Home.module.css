@@ -1,0 +1,63 @@
+.canvas {
+  background-color: #F7F7F7;
+  width: 500px;
+  height: 500px;
+  border: solid 1px #C4C4C4;
+
+  margin: 20px;
+  margin-left: 50px;
+  position: relative;
+}
+.drop {
+  width: 200px;
+  height: 200px;
+  background-color: tomato;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.title {
+  font-size: 1rem;
+  background-color: #3498DB;
+  width: 100vw;
+  height: 20vh;
+  color: #fefefe;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  font-family: 'Luckiest Guy', cursive;
+  font-weight: 400;
+}
+
+.title h1 {
+  margin-left: 50px;
+}
+
+.content {
+  display: flex;
+}
+
+.form {
+  width: 100%;
+}
+
+.input {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  padding-right: 100px;
+  margin-top: 20px;
+}
+
+.input textarea{
+  height: 6rem;
+  border: 1px solid #C4C4C4;
+  border-radius: 10px;
+  padding: 10px;
+}
+
+.input label{
+  font-size: 1.5rem;
+  color: #505050;
+}
